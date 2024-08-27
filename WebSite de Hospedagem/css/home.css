@@ -1,0 +1,65 @@
+/* configuração global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* seção topo */
+
+.topo {
+   width: 100%; 
+   max-width: 1024px;
+}
+
+.logo-topo {
+    width: 1024px;
+    position: relative;
+    padding: 35px 0px;
+}
+
+.logo-topo div {
+    position: absolute;
+    left: 120px;
+}
+
+.logo-topo h1 {
+    font-size: 40px;
+}
+
+.logo-topo p {
+    font-size: 18px;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.logo-topo img {
+    width: 90px;
+    height: 100px;
+    position: absolute;
+}
+
+.links-topo  {
+    position: absolute;
+    top: 60px;
+    right: 120px;  
+}
+
+.links-topo a {
+    text-decoration: none;
+    font-size:20px;
+    color: #233032;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
