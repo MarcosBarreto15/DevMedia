@@ -9,51 +9,80 @@
 
 /* seção topo */
 
-.topo {
-   width: 100%; 
-   max-width: 1024px;
+.limite { /* aproveitada em todasas seções */
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
-.logo-topo {
-    width: 1024px;
+.topo {
     position: relative;
     padding: 35px 0px;
 }
 
+.logo-topo {
+    position: relative;
+}
+
+.logo-topo img {
+    width: 80px;
+}
+
 .logo-topo div {
     position: absolute;
-    left: 120px;
+    top: 0;
+    left: 95px;
+}
+
+.links-topo {
+    position: absolute;
+    top: 60px;
+    right: 0;
 }
 
 .logo-topo h1 {
-    font-size: 40px;
+    font-size: 35px;
+    color: #233032;
 }
 
 .logo-topo p {
     font-size: 18px;
-    color: #2f86d6;
-    font-weight: 600;
-}
-
-.logo-topo img {
-    width: 90px;
-    height: 100px;
-    position: absolute;
-}
-
-.links-topo  {
-    position: absolute;
-    top: 60px;
-    right: 120px;  
+    color: #2f86d6 ;
+    font-weight: 700;
 }
 
 .links-topo a {
+    font-size: 20px;
+    margin-left: 20px;
     text-decoration: none;
-    font-size:20px;
-    color: #233032;
+    color: #233032 ;
     font-weight: 600;
-    margin-left: 15px;
 }
+
+/* seção banner */
+
+.banner {
+    background-color: #2f86d6; 
+}
+
+.container-banner {
+    position: relative;
+    padding: 180px 0px;
+}
+
+.banner-texto {
+    width: 470px;
+    color: #fff;
+}
+
+.banner-img {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 50%;
+}
+
+
 
 
 
