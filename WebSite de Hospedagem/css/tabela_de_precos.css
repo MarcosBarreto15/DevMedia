@@ -1,0 +1,148 @@
+/* configuração global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* seção topo */
+
+.limite { 
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo-bg, .rodape {
+    background-color: #2f86d6;
+}
+
+.topo {
+    position: relative;
+    padding: 35px 0px;
+    
+}
+
+.logo-topo {
+    position: relative;
+}
+
+.logo-topo img {
+    width: 80px;
+}
+
+.logo-topo div, .logo-rodape div{
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.links-topo {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.logo-topo p, .logo-rodape p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.links-topo a {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff ;
+    font-weight: 500;
+}
+
+
+/* seção tabela */
+
+.planos {
+    padding: 100px 0px;
+}
+
+.planos table {
+    margin: auto;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #f1f3f7;
+}
+
+.cabecalho p {
+    color: #a8a4a4 ;
+    font-size: 14px;
+}
+
+.cabecalho h2 {
+    font-size: 36px;
+}
+
+.coluna1 {
+    background-color: #f1f3f7;
+    text-align: left;
+    font-weight: 600;
+}
+
+tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    font-weight: 500;
+}
+
+.marcador {
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 100px;
+    margin: auto;
+}
+
+
+/* seção rodapé */
+
+.rodape img {
+    width: 80px;
+}
+
+.rodape {
+    padding-top: 70px;
+}
+
+.logo-rodape {
+    width: 320px;
+    position: relative;
+    margin: auto
+}
+
+
+.copyright {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 70px;
+}
+
+
+.desenvolvedor {
+    background-color:#f1f3f7;
+    text-align: center;
+    padding: 26px 0;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+}
+
+.desenvolvedor span {
+    color: #2f86d6;
+}
