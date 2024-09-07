@@ -1,0 +1,56 @@
+
+.container-descricao {
+    padding-top: 60px;
+}
+
+
+.banner {
+    height: 30vh;
+}
+
+.container-quartos {
+    gap: 6px;
+}
+
+
+.container-quartos img {
+    width: 330px;
+    flex-grow: 1;
+    transition: transform 0.5s;
+}
+
+.container-quartos img:hover {
+    transform: scale(1.2);
+}
+
+
+.informacoes-lista {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.container-lista ul  {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;  
+    line-height: 30px;
+    margin-left: 80px;
+}
+
+.container-lista h3 {
+    padding: 30px;
+}
+
+
+.container-lista li {
+    width: 230px;
+    text-align: left;
+    
+}
