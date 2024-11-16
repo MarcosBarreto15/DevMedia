@@ -1,0 +1,101 @@
+/* Geral */
+
+.container-titulo {
+    padding: 0 20px;
+}
+
+/* Links */
+
+.container-links-especialidades {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.links-especialidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.links-especialidades a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px 10px ;
+    color: #585757;
+    border-bottom: 2px solid #00cad1;
+}
+
+.links-especialidades a:hover{
+    color: #0d6e71;
+}
+
+.container-links-especialidades h1{
+    padding-top: 20px;
+    color: #585757;
+}
+
+/* Especialidades */
+
+.secao-especialidades{
+    margin-top: 40px;
+}
+
+.tabelas-especialidades{
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.tabelas-especialidades img{
+    width: 30%;
+}
+
+.tabela-especialidade{
+    width: 70%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+
+.tabela-especialidade thead tr{
+    background-color: #00cad1;
+    color: #fff;
+}
+
+.tabela-especialidade tbody tr{
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+
+.tabela-especialidade tbody tr:nth-of-type(odd){
+    background-color: #cdcdcd;
+}
+
+.tabela-especialidade th, .tabela-especialidade td {
+    padding: 10px;
+}
+
+
+/* Responsividade */
+
+
+
+@media (max-width: 768px) {
+    .tabelas-especialidades img {display: none;}
+
+    .tabelas-especialidades{
+        height: auto;
+    }
+
+    .tabela-especialidade {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .tabelas-especialidades{padding: 0;}
+}

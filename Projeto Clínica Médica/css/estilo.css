@@ -1,0 +1,217 @@
+/* Geral */
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-titulo {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0  auto;
+    color: #585757;
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+
+
+/* Topo */
+
+.topo {
+    background-color: #00cad1;
+    width: 100%;
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo a, .links-topo {
+    display: flex;
+}
+
+
+.logo {
+    width: 130px;
+}
+
+
+.link-topo {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.link-topo:hover {
+    color: #004b4c ;
+}
+
+#sobre, #especialidades, #contato {
+    color: #004b4c;
+    padding: 40px 20px 0;
+    
+}
+
+
+/* Folder */
+
+.folder {
+    background-image:url(../assets/recepcao.png);
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.folder-titulo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.folder h1 {
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/* Sobre */
+
+.sobre-titulo p, .container-titulo p {
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.sobre-descricao {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #585757;
+}
+.sobre-descricao div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-descricao h3, .container-titulo {
+    padding-bottom: 20px;
+}
+
+/* Especialidades */
+
+.container-especialidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.especialidades-figura {
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    box-shadow:0px 1px 10px rgb(0 0 0 / 50%);
+}
+
+.especialidades-figura img {
+    width: 100%;
+}
+
+.especialidades-figura figcaption {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-horarios {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-horarios {
+    background-color: #00cad1;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+}
+
+
+footer .container {
+    text-align: center;
+}
+
+footer .container p {
+    line-height: 40px;
+}
+
+/* Responsividade */
+
+@media (max-width: 1024px){
+    .folder {height: 400px;}
+}
+
+@media (max-width: 768px) {
+    .folder {height: 300px;} 
+    .sobre-descricao img {display: none;}
+    .container-especialidades {justify-content: center;}
+    .especialidades-figura {width: calc(100%/2 - 40px);}
+}
+
+
+@media (max-width: 425px) {
+    .topo .container {flex-direction: column;}
+    .folder {height: 200px;}
+    .especialidades-figura {width: 100%;}
+    .links-topo {
+        border-top: 1px solid #009fa5;
+        width: 100%;
+        justify-content: space-around; 
+    }
+    .folder h1 {font-size: 28px;}
+}
+
+
+
+
