@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#80808029;
+    font-family: Raleway;
+}
+
+/* Largura geral */
+
+.largura {
+    max-width: 1024px;
+}
+
+/* Topo */
+
+header {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+
+.topo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topo img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.topo p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+/* Formulario */
+
+.orcamento {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/bahia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secao-orcamento {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.orcamento-titulo {
+    width: 100%;
+    height: 35px;
+    background: #5d15d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orcamento-titulo img {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+
+.orcamento-titulo h1 {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.formulario {
+    width: 100%;
+    background: #fff;
+    padding: 30px 25px 20px 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.formulario label {
+    font-size: 16px;
+}
+
+.formulario input, .formulario select {
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+}
+
+.formulario input {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.formulario select {
+    padding: 0 3px;
+}
+
+.campo-formulario {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campo-formulario div {
+    width: calc(50% - 10px);
+}
+
+.selecao-formulario {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.selecao-formulario div {
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.selecao-formulario input {
+    width: 15px;
+}
+
+.selecao-formulario label {
+    margin-left: 8px;
+}
+
+.formulario button {
+    width: 160px;
+    height: 32px;
+    background: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+
+/* Ofertas */
+
+.ofertas, .natureza {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+}
+
+.oferta-subtitulo, .natureza-subtitulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.oferta-subtitulo3, .natureza-subtitulo3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.oferta-subtitulo3 span {
+    font-weight: bold;
+}
+
+.oferta-imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta-span {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+} 
+
+.oferta-4-imagens {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oferta-4-imagens div {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.oferta-4-imagens img, .oferta-span img, .imagem-natureza img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.oferta-4-imagens span, .oferta-span span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.imagens-natureza {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-natureza {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.imagem-natureza div {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.imagem-natureza h3 {
+    font-size: 16px;
+}
+
+.imagem-natureza p {
+    color: gray;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+/* Rodapé */
+
+
+footer {
+    width: 100%;
+    background: #5d15d1;
+    margin-top: 32px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.secao-rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.secao-rodape h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.secao-rodape div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.secao-rodape img {
+    width: 18px;
+}
+
+.secao-rodape span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* Responsividade */
+
+@media(max-width: 1100px) {
+    .largura {
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px) {
+    .formulario button {
+        width: 100%;
+    }
+
+    .oferta-imagens {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .oferta-4-imagens {
+        width: 100%;
+    }
+
+    .oferta-span, .oferta-4-imagens div {
+        width: 100%;
+        height: 225px;
+        margin-top: 15px;
+    }
+
+    .imagens-natureza {
+        flex-direction: column;
+    }
+
+    .imagem-natureza {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secao-rodape {
+        width: 250px;
+    }
+}
+
+@media(max-width: 540px) {
+    .campo-formulario, .selecao-formulario {
+        flex-direction: column;
+    }
+
+    .campo-formulario div, .selecao-formulario div {
+        width: 100%;
+    }
+}
