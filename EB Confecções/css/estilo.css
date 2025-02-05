@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+/* Largura geral */
+
+.largura {
+    max-width: 1024px;
+}
+
+/* Topo */
+
+header {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+}
+
+.topo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.logo-topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-topo img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-topo p {
+    color: #020202;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.links-topo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links-topo a {
+    text-decoration: none;
+    color: #f2f2f2 ;
+    padding: 8px;
+    background-color: #020202;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.links-topo a:hover {
+    color: #020202;
+    background-color: #f2f2f2;
+}
+
+/* Quem somos */
+
+.quem-somos {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    color: #020202 ;
+}
+
+.descricao {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descricao h2 {
+    font-size: 32px;
+}
+
+/* Fardamentos */
+
+.fardamento, .onde-estamos, .orcamento {
+    margin: 0 auto;
+    margin: 50px auto;
+}
+
+.subtitulo h2, .orcamento h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+}
+
+.container-fardamento {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.fardamento-tipo {
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    box-shadow:0px 1px 10px rgb(0 0 0 / 50%);
+    height: 300px;
+}
+
+.fardamento-tipo img {
+    width: 100%;
+    height: 250px;
+}
+
+.fardamento-tipo figcaption {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Onde Estamos */
+
+.mapa {
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+
+/* Orçamento */
+
+.orcamento {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.dados-pedido {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dados-pedido h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 16px;
+}
+
+form input, form select {
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+}
+
+form input {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.detalhe-pedido {
+    height: 60px;
+}
+
+form select {
+    padding: 0 3px;
+}
+
+form button {
+    width: 160px;
+    height: 32px;
+    font-size: 16px;
+    border: none;
+    margin: 15px auto 50px auto;
+    cursor: pointer;
+    color: #f2f2f2;
+    background-color: #020202;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+
+footer{
+    width: 100%;
+    background-color: #020202 ;
+    color: #f2f2f2;
+}
+
+footer span {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.secao-rodape div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.secao-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.secao-rodape h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.secao-rodape img {
+    width: 22px;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 1024px){
+    .quem-somos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-descricao img {
+        width: 800px;  
+        padding-bottom: 20px;
+    }
+    .descricao h2 {
+        padding-bottom: 20px;
+    }
+    .mapa {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .rodape {
+        justify-content: space-around;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .topo {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logo-descricao img {
+        display: none;
+    }
+    .container-fardamento {
+        justify-content: center;
+    }
+    .fardamento-tipo {
+        width: calc(100%/2 - 40px);
+    }
+    .mapa {
+        max-width: 700px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .links-topo a {
+        background: none ;
+        color: #020202;
+    }
+    .links-topo {
+        justify-content: center;
+        align-items: center;
+        margin: o auto;
+    }
+    .fardamento-tipo {
+        width: 100%;
+    }
+    .descricao h2 {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .mapa {
+        max-width: 400px;
+    }
+    .container-orcamento h3 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .rodape {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .secao-rodape {
+        align-items: center;
+    }
+
+
+
+
+
+
+}
