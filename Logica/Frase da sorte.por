@@ -10,6 +10,8 @@ programa
 			escreva("Informe o dia do seu aniversário:")
 			leia(dia_aniversario)
 
+			escreva("\n")
+
 			escolha(dia_aniversario)
 			        {
             caso 1:
@@ -184,7 +186,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 9089; 
+ * @POSICAO-CURSOR = 277; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
