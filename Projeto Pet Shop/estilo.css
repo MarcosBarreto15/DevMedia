@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Seção Banner */
+
+.secao-banner {
+    background-image: url("img/banner-topo.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 120px 80px ;
+}
+
+.topo-titulo {
+    max-width: 260px;
+    color: #3c184e;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 0 0 5px 0;
+    font-weight: 300; 
+}
+
+.topo-titulo p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.topo-titulo img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+/* Seção Transparencia */
+
+.secao-transparencia {
+    padding: 40px;
+    background-color: #ffffffc4;
+    text-align: center;
+    margin: 70px auto 0 auto;
+    max-width: 1024px;
+    color: #3c184e;
+    box-shadow: 0px 8px 32px #1f26875e;
+    border-radius: 10px;
+}
+
+.secao-transparencia p {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.secao-transparencia a {
+    font-size: 20px;
+    background-color: #3c184e;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto 0 auto ;
+}
+
+.secao-transparencia img {
+    width: 20px;
+}
+
+/* Seção Serviços, com reaproveitamento para seção marcas, e seção onde estamos */
+
+.secao-servicos, .secao-marcas, .secao-onde-estamos {
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #3c184e ;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+
+span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.lista-servicos {
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+    color: #3c184e; 
+}
+
+li {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+/* reaproveitamento para o conteiner de imagens da seção-marcas */
+
+.imagens-servico, .marcas-img {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.imagens-servico img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px#0000005c;
+    transition: transform 0.5s;
+}
+
+.imagens-servico img:hover {
+    transform: scale(1.2);
+}
+
+/* Seção Redes Sociais, estilização feita para as duas seções com essa classe definida */
+
+.secao-redes-sociais{
+    background-color: #3c184e;
+    color: #fff;
+    text-align: center;
+    padding: 120px 80px;
+}
+
+.secao-redes-sociais p {
+    max-width: 800px;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+ }
+
+
+.secao-redes-sociais img {
+    width: 50px;
+    height: 50px;
+    margin: auto 20px;
+}
+
+.marcas-img img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* Seção onde estamos */
+
+.secao-onde-estamos p {
+    font-size: 20px;
+    color:#3c184e;
+    margin: 0 0 30px 0;
+}
+
+iframe {
+    width: 800px;
+    height: 500px;
+}
+
+/* Seção rodapé */
+
+.secao-rodape {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+
+.secao-rodape p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
