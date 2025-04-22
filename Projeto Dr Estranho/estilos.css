@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.topo {
+    background-image: url(capa.jpg);
+    background-size: cover;
+    min-height: 600px;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+h1, h2 {
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+}
+
+h1 {
+    background-color: #000;
+}
+
+h2 {
+    background-color: #f00;
+}
+
+.sobre {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.sobre img {
+    width: 200px;
+    height: 250px;
+}
+
+.divulgacao {
+    background-image: url(img1.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-attachment: fixed;
+}
+
+p {
+    line-height: 26px;
+}
+
+span {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 25px;
+
+}
+
+
+
+
+
