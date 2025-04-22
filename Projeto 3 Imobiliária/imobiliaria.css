@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secao {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+p, div#contato p {
+    margin: 10px auto;
+    text-align: justify;
+    width: 980px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.secao-logo {
+    background-color: #afddfb;
+}
+
+.logo {
+    width: 150px;
+}
+
+.paragrafo-logo {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.paragrafo-logo a {
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    font-size: 18px;
+    color: #1d1d1d;
+    margin: 0 10px;
+}
+
+.secao-banner {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+.blue {
+    font-weight: bold;
+    color: #1d80c1;
+}
+
+.yellow {
+    font-weight: bold;
+    color: #fff81b;
+}
+
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+    
+}
+
+h2 {
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.secao-apresentacao h2 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.secao-apresentacao img, .secao-corretores img {
+    width: 450px;
+    margin-top: 10px;
+}
+
+.secao-blue {
+    background-color: #1d80c1;
+    color: #ffffff;
+}
+
+.secao-blue h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+.secao-blue p {
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+    line-height: 42px;
+}
+
+.secao-blue ul {
+    width: 135px;
+    margin: 40px auto ;
+    text-align: left;
+    line-height: 42px;
+    font-size: 22px;
+}
+
+div#contato iframe {
+    width: 700px;
+    height: 400px;
+}
+
+div#contato p {
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div#contato ul {
+    margin: 40px auto;
+    width: 210px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+div#contato a {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+
+
