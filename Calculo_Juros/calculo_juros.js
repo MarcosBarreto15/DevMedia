@@ -4,6 +4,7 @@ let valorDivida = parseFloat(entradaDados.question('Informe o valor devido; R$ '
 
 if (valorDivida <= 0) {
     console.log("O valor da dívida deve ser maior que zero.");
+    process.exit();
 }
 
 
